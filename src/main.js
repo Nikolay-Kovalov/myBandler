@@ -7,7 +7,7 @@ const modal = document.querySelector(".modal");
 searchResult.addEventListener("click", onLearnMoreBtnClick);
 searchResult.addEventListener("click", onFavoriteBtnClick);
 
-const arr = [];
+const arr = [];     
 
 const localArr = load("favorite");
 
@@ -126,7 +126,7 @@ evt.target.firstElementChild.attributes.fill.value = "#fdfdff"
       title: evt.target.closest("li").children[1].textContent,
       text: evt.target.closest("li").children[2].textContent,
       favorite: true
-    }
+    } 
        if (arr.length === 0) {
       arr.push(obj)
            save("favorite", arr)
