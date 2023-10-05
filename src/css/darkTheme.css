@@ -1,0 +1,15 @@
+.card {
+    background-color: black;
+    width: 500px;
+}
+
+.dark_body {
+    background-image: url('../images/background-dark.png');
+    background-repeat: no-repeat;
+
+}
+
+.dark {
+    color: #fdfdff;
+
+}
